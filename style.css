@@ -1,0 +1,56 @@
+body,html{
+    height: 100%;
+}
+.bg-image{
+    background-image: url("images/happy-snow-fall-kashmir-murree-pakistan-wallpaper-preview.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    
+}
+.bg{
+    position: absolute;
+    top: 20%;
+    left: 42%
+}
+.bg h1{
+    color:red;
+    font-size: 45px;
+}
+#count-el{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 32px;
+}
+#increment-btn{
+    position: absolute;
+    left: 23%;
+    top: 120%;
+    width: 185px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: aqua;
+}
+#save-btn
+{
+    position: absolute;
+    left: 23%;
+    top: 170%;
+    width: 185px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color:rebeccapurple;
+}
+#save-el{
+    position: absolute;
+    left: 19%;
+    top: 200%;
+    font-size: 26px;
+    color: chartreuse;
+}
